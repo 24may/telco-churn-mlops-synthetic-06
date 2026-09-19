@@ -25,8 +25,8 @@ on:
     branches: [develop]
   pull_request:
     branches: [main]
-  schedule:
-    - cron: "0 3 * * *"     # daily model quality check (slide 7: schedule trigger)
+  #schedule:
+  #  - cron: "0 3 * * *"     # daily model quality check (slide 7: schedule trigger)
   workflow_dispatch:          # manual trigger — emergency deploy or rollback
 
 env:
