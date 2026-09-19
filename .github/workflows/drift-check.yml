@@ -14,7 +14,7 @@
 name: Daily Drift Detection
 
 on:
-  schedule:
+  #schedule:
   #  - cron: "0 3 * * *"     # 03:00 UTC daily
   workflow_dispatch:          # manual trigger for testing
 
